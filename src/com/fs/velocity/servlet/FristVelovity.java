@@ -37,9 +37,6 @@ public class FristVelovity extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		// response.getWriter().append("Served at:
-		// ").append(request.getContextPath());
 		VelocityEngine ve = new VelocityEngine();
 		// Velocity.java implements RuntimeConstants
 		// so you can use RuntimeConstants.RESOURCE_LOADER="resource.loader"
@@ -54,6 +51,7 @@ public class FristVelovity extends HttpServlet {
 
 		PrintWriter pw = response.getWriter();
 		template.merge(context, pw);
+		
 
 	}
 
