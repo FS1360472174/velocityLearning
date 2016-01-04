@@ -1,1 +1,1 @@
-velority learning
+velocity learning
