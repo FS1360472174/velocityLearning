@@ -19,3 +19,7 @@ velocity learning
 1.场景1（web应用程序）具体说明参考 introduction of velocity.md
 
 2.场景2（源代码生成） 具体说明参考 autoGenerateCode.md
+
+3.场景3 类似场景1，2这里不再赘述
+
+4.场景4（将xml转换为其他文档格式） 具体说明参考 xmlTransform.md
